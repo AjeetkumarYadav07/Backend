@@ -1,8 +1,7 @@
-const express = require('express')
-const app = express()
+//  let chaha = require('./script2')
+// var a = 10 ;
+//  var b = 30;
+ 
+//  console.log(c);
 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
-
-app.listen(3000)
+console.log("ajeet")
