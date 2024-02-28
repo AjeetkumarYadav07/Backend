@@ -11,8 +11,4 @@ In this repo i upload my express js learnings
  --express gentrator 
  --- mongodb
  --- inter,ediate mongodb
- --- api develipment
- --- authentication and authorization 
- --- error handling
- --- middlewere
- --- session and cookies 
+ 
