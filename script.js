@@ -1,7 +1,14 @@
-//  let chaha = require('./script2')
-// var a = 10 ;
-//  var b = 30;
- 
-//  console.log(c);
 
-console.log("ajeet")
+// var oneLinerJoke = require('one-liner-joke');
+// console.log (oneLinerJoke.getRandomJoke({
+//     'exclude_tags':[ 'funny']
+// }));
+
+  const ex = require('express');
+    const app = ex();
+     app.get("/", function(req , res ){
+        res.send ('hello form mre');
+
+     })
+           app.listen(6000);
+  
