@@ -5,9 +5,16 @@ const express = require('express');
     });
         
 
-       app.get("/profile" , function (req ,res ){
-        res.send("hello from prfile ");
+       app.get("/profile/:username" , function (req ,res ){
+        res.send(`Heloo from ${req.params.username}`);
        });
-
+       
+       app.get("/new", function(req, res ){
+        res.send("hello get ijn");
+       });
+         
+       app.get(" * ", function (req , res ){
+        res.send("this page is not found");
+       });
 
     app.listen(4000);

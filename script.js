@@ -1,14 +1,10 @@
 
-// var oneLinerJoke = require('one-liner-joke');
-// console.log (oneLinerJoke.getRandomJoke({
-//     'exclude_tags':[ 'funny']
-// }));
+ const express = require('express')
+  const app = express();
 
-  const ex = require('express');
-    const app = ex();
-     app.get("/", function(req , res ){
-        res.send ('hello form mre');
+    app.set("view engine " , "ejs");
+    app.get('/', function (req , res ){
+        res.send("hello from bakcned ");
+    })
 
-     })
-           app.listen(6000);
-  
+    app.listen(3000);
