@@ -1,0 +1,77 @@
+ 
+//   --- EXPORT COMMAND ----
+ 
+  module.exports
+  
+//    === Export 2 files == 
+     module.exports = {first:a , second: b};
+   
+
+//   ---- Import Command ----
+  require(' add the path of file using ./  '); 
+
+
+
+
+  // ==== Partice run code ====
+     var a = 23;
+     module.exports = a;
+        // ----import the code---
+    var data = require('./script2')
+    console.log(data);
+
+
+
+
+    // === npm and usage ====
+      // install > npm i 
+          // and use by documention  
+
+
+
+
+  //  ===== Express js ====
+    // download expresss npm   
+    
+      // express framework for Node.js 
+
+    //  --- epxress use for routing ---
+      //  ------main type of routing------ 
+      //       GET POST 
+
+
+
+
+      // ----- how make severs------
+         const express = require('express');
+   const app = express();
+    app.get ("/" , function (req , res){
+        res.send("HELO G er from backend   ");
+    });
+        
+        --two routes--
+
+       app.get("/profile" , function (req ,res ){
+        res.send("hello from prfile ");
+       });
+
+
+    app.listen(4000);
+
+        ----- Middlewear use --
+
+        app.use (funtion (req , res , next ){
+            console.log("heloo g");
+            next ();
+        });
+
+          next() funtion is use ==> for push the code next becouse middleweare
+            jam the code 
+
+
+
+            ---Route parameters use for any route dynamic you
+              can use : at the palce where you want to make it dynamic. 
+
+
+              
